@@ -1,0 +1,13 @@
+.html,body{
+    height: 100%;
+}
+.cv{
+    padding: 10px;
+    width: 900px;
+    margin: 0 auto;
+    min-height: 100%;
+    background: rgb(215, 228, 236);
+}
+.code_block{
+    margin-left: 20px;
+}
