@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="cv">
+         <header>
+            <nav class="nav">
+                    <a class="nav_element nav_element_1" href="#">Menu</a>
+                    <a class="nav_element nav_element_2" href="#">Contacts</a>
+                    <a class="nav_element nav_element_3" href="#">About</a>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                            <div class="container_element_1">
+                                <div class="element_1_content">
+                                    <h1><span class=txt>PAVEL ZHUK</span></h1>
+                                </div>
+                            </div>
+                            <div class="container_element_2">
+                                <div class="element_2_content">
+                                    <h2>PERSONAL INFORMATION</h2>
+                                    <ul class="lists">
+                                    <li class="calendar lists_style ">21.03.1982</li>
+                                    <li class="geo lists_style">Minsk</li>
+                                    </ul>
+                                    <h2>CONTACTS</h2>
+                                    <ul class="lists">
+                                        <li class="phone lists_style">+375(29)7515033</li>
+                                        <li class="email lists_style">pabloescarabajo@live.com</li>
+                                        <li class="telegram lists_style">zhuk_pasha</li>
+                                    </ul>
+                                    <h2>SKILLS</h2>
+                                    <ul class="lists">
+                                        <li class="html lists_style">HTML<progress value="60" max="100" class="level"></progress></li>
+                                        <li class="css lists_style">CSS<progress value="60" max="100" class="level" ></progress></li>
+                                        <li class="js lists_style">JS<progress value="30" max="100" class="level" ></progress></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="container_element_3">
+                                <div class="element_3_content">
+                                    <h3>About me</h3>
+                                    <p>I am 39 years old, for the last 2 years I have been working as an engineer of the technical department in the field of UC&C,
+                                         working with IP telephony and video conference equipment.  
+                                         I am distinguished by diligence, stress tolerance and a responsible approach to business. I work well in a team, I know how to resolve conflicts and compromise.</p>
+                                    <h3>Education</h3>
+                                    <ul class="education_list">
+                                        <li class="education"> Military Academy of the Republic of Belarus</li>
+                                        <li class="education"> -Telecommunications Engineer</li>
+                                    </ul>
+                                    <ul class="education_list">
+                                        <li class="education"> Belarusian State University of Informatics and Radioelectronics</li>
+                                        <li class="education"> -Software Engineer (incomplete second higher education)</li>
+                                    </ul>
+                                
+                                    <h3>Foreign languages</h3> 
+                                    <p style="text-align: right;">English - A1</p>   
+                                    <h3>Code example</h3>
+                                    <p>Complete the solution so that it reverses the string passed into it.
+                                        'world' => 'dlrow' 'word' => 'drow'</p>
+                                    <pre>
+                                        <code style="font-size: 12px;">
+                                            function solution(str){
+                                                let someText="";
+                                                let someChar="";
+                                                for(i=0;i &lt;&#61; str.length-1; i++){
+                                                    someChar=str[str.length-1-i];
+                                                    someText=someText+someChar;
+                                                }
+                                            return someText;
+                                            }
+                                            solution("world")
+                                        </code>
+                                    </pre>
+                        
+                                </div>
+                            </div>
+                            <div class="foto">
+                                <img src="./img/2021-12-23_13-56-39.png" alt="foto">    
+                            </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer_block_1">
+                <div class="block_1_content">
+                    <a href="https://github.com/ZhukPavel">Pavel_Zhuk 2021</a>
+                </div>
+            </div>
+            <div class="footer_block_2">
+                <div class="block_2_content">
+                    <a href="https://rs.school/js/">RS SCHOOL</a>
+                </div>
+            </div>
+        </footer> 
+    </div>
+</body>
+</html>
